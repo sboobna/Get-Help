@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Get Help</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speak">Speak</string>
+    <string name="title_activity_splash_screen">Get Help</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="gethelpurl">gethelp.info</string>
+    <string name="gethelpsplashscreen">Get Help Splash Screen</string>
+    <string name="prompt_firstName">First Name</string>
+    <string name="prompt_lastName">Last Name</string>
+    <string name="title_activity_banned_user">Banned User</string>
+    <string name="Banned_user">Sorry you have been Banned for being bad!</string>
+	<string name="phone_no">Phone Number</string>
+	<string name="register">Register</string>
+</resources>
