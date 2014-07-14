@@ -19,8 +19,8 @@ import android.widget.Toast;
 public class S3BucketManager extends AsyncTask<String, Void, Void> {
 
 	AmazonS3Client s3 = new AmazonS3Client(new BasicAWSCredentials(
-			"AKIAJ6IKE3AV5RM6RLGA", // access key
-			"rvJKCTJqKfJNeuQG6uM91RTvtlLDwnyF7nvk+nvI")); // secret key
+			<ACCESS-KEY>, // access key
+			<SECRET-KEY>)); // secret key
 	String bucket_name = "get-help";
 	Activity activity;
 	public void setOuterActivity(Activity activity){
