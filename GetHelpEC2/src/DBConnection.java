@@ -4,11 +4,11 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 	// details of the Amazon RDS instance
-		private String DB_END_POINT = "cloud-project.cvxkuyzf5ndd.us-east-1.rds.amazonaws.com";
-		private final String DB_USER_NAME = "gethelp";
-		private final String DB_PWD = "columbia";
-		private final String DB_NAME = "gethelp";
-		private final int DB_PORT = 3306;
+		private String DB_END_POINT = <END-POINT>;
+		private final String DB_USER_NAME = <USER>;
+		private final String DB_PWD = <PWD>;
+		private final String DB_NAME = <NAME>;
+		private final int DB_PORT = <PORT>;
 		
 		// this method creates a connection with RDS
 		public Connection createConnection() {
